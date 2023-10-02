@@ -1,17 +1,18 @@
 import React from 'react'
-import Form from '../wrapper/Form';
-import Header from '../wrapper/Header';
-import Footer from '../wrapper/Footer';
+import Form from '../Wrapper/Form';
+import Header from '../Wrapper/Header';
+import Footer from '../Wrapper/Footer';
+import Wrapper from '../Wrapper';
 
 function Accueil() {
   return (
     <>
-    <Header/>
+    <Wrapper>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </Wrapper>
     <h2>Accueil</h2>
     <div>Content</div>
     <br/>
-    <Form />
-    <Footer/>
     </>
   )
 }

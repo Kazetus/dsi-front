@@ -1,4 +1,4 @@
-import Form from "./Form";
+import Form from "../Wrapper/Form";
 
 function Content({title}) {
   return (
