@@ -3,16 +3,21 @@ import Form from '../Wrapper/Form';
 import Header from '../Wrapper/Header';
 import Footer from '../Wrapper/Footer';
 import Wrapper from '../Wrapper';
+import {useState} from "react";
 
 function Accueil() {
+  const [isChecked, setIsChecked] = useState(false)
+
+  const checking = ()=>{
+    setIsChecked(!isChecked);
+    console.log(isChecked);
+  }
   return (
     <>
     <Wrapper>
-      <p>Lorem ipsum dolor sit amet.</p>
+      <input type="checkbox" onClick={checking}/>
+      <p style={{ color: true ? 'blue' : 'red'}} >Lorem ipsum dolor sit amet.</p>
     </Wrapper>
-    <h2>Accueil</h2>
-    <div>Content</div>
-    <br/>
     </>
   )
 }
