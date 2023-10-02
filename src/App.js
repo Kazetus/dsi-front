@@ -6,7 +6,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Content />}/>
+        <Route path="/" element={<Content title="toto" />}/>
       </Routes>
     </BrowserRouter>
   );
