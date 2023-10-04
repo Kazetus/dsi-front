@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Wrapper from './Wrapper';
 import Car from './Car';
+import MyModal from './MyModal';
 
 
 
@@ -21,6 +22,7 @@ function MyCars({title}) {
                 <hr/>
                 </>
             ))}
+            <MyModal name={'Show'} title={'Title'} body={'List of Cars'}/>
             {/* <Car marque="Ford" couleur="vert" />
             <Car marque="Renault" couleur="rouge" />
             <Car marque="Citroen" couleur="bleu" /> */}
