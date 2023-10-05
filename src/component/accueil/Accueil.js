@@ -1,7 +1,4 @@
 import React from 'react'
-import Form from '../Wrapper/Form';
-import Header from '../Wrapper/Header';
-import Footer from '../Wrapper/Footer';
 import Wrapper from '../Wrapper';
 import {useState} from "react";
 

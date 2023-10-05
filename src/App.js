@@ -8,6 +8,7 @@ import Childcss from './component/Childcss';
 import NavBar from './component/NavBar';
 import Connexion from './component/pages/connexion';
 import Inscription from './component/pages/inscription';
+import Footer from './component/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/inscription" element={<Inscription />}/>
         {/* <Route path="/" element={<Content title="toto" />}/> */}
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
