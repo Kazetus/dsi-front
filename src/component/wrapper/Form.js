@@ -5,10 +5,8 @@ function Form() {
     <form action="/submit-url" method="post">
         <label htmlFor="username">Nom </label>
         <input type="text" id="username" name="username" />
-        {/* <br/>
-        <label htmlFor="password">Mot de passe:</label>
-        <input type="password" id="password" name="password" /> */}
-
+        <label htmlFor="password"></label>
+        <input type="password" id="password" name="password"/>
         <input type="submit" value="OK"/>
 </form>
   )
