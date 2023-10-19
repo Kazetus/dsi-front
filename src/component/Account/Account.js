@@ -1,4 +1,4 @@
-export default function Connexion() {
+export default function Account() {
     return (
         <>
         </>
